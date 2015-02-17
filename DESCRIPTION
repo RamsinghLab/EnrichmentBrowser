@@ -15,7 +15,7 @@ Description: The EnrichmentBrowser package implements essential
         network-based enrichment analysis in order to derive
         high-confidence gene sets and biological pathways that are
         differentially regulated in the expression data under
-        investigation. Besides, the package facilitates the
+        investigation. In addition, the package facilitates the
         visualization and exploration of such sets and pathways.
 License: Artistic-2.0
 biocViews: Microarray, GeneExpression, DifferentialExpression,
