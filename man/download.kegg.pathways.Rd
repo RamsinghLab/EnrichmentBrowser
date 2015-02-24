@@ -1,5 +1,5 @@
-\name{download.pathways.of.organism}
-\alias{download.pathways.of.organism}
+\name{download.kegg.pathways}
+\alias{download.kegg.pathways}
 \title{
     Download of KEGG pathways for a particular organism
 }
@@ -8,7 +8,7 @@
     KEGG XML format for a specified organism.
 }
 \usage{
-    download.pathways.of.organism(org, out.dir = NULL, zip = FALSE)
+    download.kegg.pathways(org, out.dir = NULL, zip = FALSE)
 }
 \arguments{
     \item{org}{
@@ -39,6 +39,6 @@
 }
 \examples{
     \donttest{
-        pwys <- download.pathways.of.organism("hsa")
+        pwys <- download.kegg.pathways("hsa")
     }
 }
