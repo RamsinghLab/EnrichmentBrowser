@@ -278,11 +278,11 @@ However, in many cases such a network is missing.
 A first simple workaround is to compile a network from regulations in the KEGG
 database.\\
 We can download all KEGG pathways of a specified organism via the 
-\Rfunction{download.pathways.of.organism} function that exploits functionality
+\Rfunction{download.kegg.pathways} function that exploits functionality
 from the \Biocpkg{KEGGREST} package.
 
 <<eval=FALSE>>=
-pwys <- download.pathways.of.organism("hsa")
+pwys <- download.kegg.pathways("hsa")
 @
 
 In this case, we have already downloaded all human KEGG pathways.
